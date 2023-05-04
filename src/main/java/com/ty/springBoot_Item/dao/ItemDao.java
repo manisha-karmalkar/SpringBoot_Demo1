@@ -1,12 +1,11 @@
 package com.ty.springBoot_Item.dao;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
-
-import com.ty.springBoot_Item.Repo.ItemRepo;
 import com.ty.springBoot_Item.dto.Item;
+import org.springframework.stereotype.Repository;
+import com.ty.springBoot_Item.Repo.ItemRepo;
+
 
 @Repository//to connect with database
 public class ItemDao {
